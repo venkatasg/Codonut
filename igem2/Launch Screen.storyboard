@@ -14,18 +14,30 @@
                         <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
-                    <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.5411764979" green="0.74509805439999999" blue="0.1294117719" alpha="1" colorSpace="deviceRGB"/>
-                        <accessibility key="accessibilityConfiguration">
-                            <accessibilityTraits key="traits" notEnabled="YES"/>
-                        </accessibility>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Ao9-M5-Wq4">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="148" id="B9D-bP-0Jg"/>
+                                    <constraint firstAttribute="width" constant="150" id="IbK-CN-JzV"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ao9-M5-Wq4" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bbu-ge-qhv"/>
+                            <constraint firstItem="Ao9-M5-Wq4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vxs-24-2VC"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.623688155922046" y="373.60000000000002"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo" width="150" height="148"/>
+    </resources>
 </document>
